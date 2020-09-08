@@ -1,11 +1,12 @@
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-bar {
@@ -14,14 +15,14 @@ body {
 
 .nav-container {
   width: 1220px;
-  padding: 8px 0 3px 5px;
+  padding: 8px 0 5px 5px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .logo a img {
@@ -122,8 +123,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   padding: 0;
   margin-top: 60px;
 }
@@ -184,5 +185,89 @@ body {
   color: #00cd00;
   -webkit-transition: all 1s;
   transition: all 1s;
+}
+
+.inner-main {
+  width: 1220px;
+  margin: 0 auto;
+  padding: 47px 3px 100px;
+}
+
+#articles {
+  width: 721px;
+}
+
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 38px;
+}
+
+article .article-pic {
+  margin-right: 18px;
+}
+
+article h3 {
+  font-size: 26px;
+  font-weight: normal;
+  color: #4e3100;
+  margin: 0;
+  line-height: 36px;
+}
+
+article p {
+  font-size: 15.5px;
+  margin: 5px 0;
+}
+
+article p a {
+  text-decoration: none;
+  color: #116294;
+}
+
+.pagination {
+  margin-top: 80px;
+}
+
+.pagination ul {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pagination li:nth-child(1) span {
+  background-color: #427d17;
+  padding: 17px;
+  line-height: 50px;
+  border-radius: 4px;
+  color: white;
+}
+
+.pagination li {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.pagination li a {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #42b717;
+  padding: 17px;
+  line-height: 50px;
+  border-radius: 4px;
+  color: white;
+}
+
+.pagination li a:hover {
+  background-color: #96ca2e;
+}
+
+.pagination .dotted {
+  line-height: 20px;
+  padding: 10px 6px;
+  color: ddd;
 }
 /*# sourceMappingURL=styles.css.map */
