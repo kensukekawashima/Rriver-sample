@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,8 +20,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .logo a img {
@@ -44,8 +44,8 @@ body {
   border-radius: 4px;
   outline: none;
   background-color: rgba(255, 255, 255, 0.2);
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .search-box input::-webkit-input-placeholder {
@@ -67,8 +67,8 @@ body {
 .search-box input:focus {
   width: 300px;
   background-color: white;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .search-box button {
@@ -102,7 +102,7 @@ body {
 
 .inner-top-wraper h1 {
   font-size: 144px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-weight: normal;
   margin: 0;
   line-height: 154px;
@@ -112,7 +112,7 @@ body {
 .inner-top-wraper h2 {
   font-size: 15px;
   font-weight: normal;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   margin-left: 5px;
 }
 
@@ -122,8 +122,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   padding: 0;
   margin-top: 60px;
 }
@@ -153,14 +153,14 @@ body {
 
 .inner-top-wraper .fa-twitter:hover {
   background-color: white;
-  color: #1DA1F2;
+  color: #1da1f2;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
 
 .inner-top-wraper .fa-facebook-f:hover {
   background-color: white;
-  color: #4267B2;
+  color: #4267b2;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
