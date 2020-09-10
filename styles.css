@@ -9,10 +9,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-bar {
-  background-color: #2184b8;
-}
-
 .nav-container {
   width: 1220px;
   padding: 8px 0 5px 5px;
@@ -25,8 +21,9 @@ body {
           justify-content: space-between;
 }
 
-.logo a img {
-  width: 34px;
+.logo a i {
+  font-size: 40px;
+  color: green;
 }
 
 .search-box form {
@@ -44,25 +41,25 @@ body {
   border: none;
   border-radius: 4px;
   outline: none;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.6);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 .search-box input::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  color: #585858;
 }
 
 .search-box input:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  color: #585858;
 }
 
 .search-box input::-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  color: #585858;
 }
 
 .search-box input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  color: #585858;
 }
 
 .search-box input:focus {
@@ -77,37 +74,37 @@ body {
   cursor: pointer;
   border: none;
   outline: none;
-  background-color: #2184b8;
+  background-color: transparent;
   padding: 0 0 0 10px;
 }
 
 .search-box button i {
   font-size: 20px;
   font-weight: 900;
-  color: white;
+  color: #3f3f3f;
 }
 
 #top-wraper {
-  background: url(img/bg-rriver-top2.svg);
+  background: url(img/pexels-rido-alwarno-1034887.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center;
 }
 
 .inner-top-wraper {
   width: 1180px;
-  padding: 130px 12px 24px 20px;
+  padding: 130px 12px 22px 20px;
   margin: 0 auto;
   color: white;
 }
 
 .inner-top-wraper h1 {
   font-size: 144px;
-  font-family: "Pacifico", cursive;
+  font-family: "Great Vibes", cursive;
   font-weight: normal;
   margin: 0;
   line-height: 154px;
-  letter-spacing: -4.5px;
+  letter-spacing: 2px;
 }
 
 .inner-top-wraper h2 {
@@ -208,12 +205,25 @@ article .article-pic {
   margin-right: 18px;
 }
 
+article .article-pic img {
+  width: 150px;
+  height: 150px;
+}
+
 article h3 {
+  margin: 0;
+}
+
+article h3 a {
   font-size: 26px;
   font-weight: normal;
-  color: #4e3100;
-  margin: 0;
+  color: #332101;
   line-height: 36px;
+  text-decoration: none;
+}
+
+article h3 a:hover {
+  color: #332101b7;
 }
 
 article p {
